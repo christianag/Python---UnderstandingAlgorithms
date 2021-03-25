@@ -1,4 +1,4 @@
-def buble(list_a):
+def bubble(list_a):
     sorted = False
     while not sorted: 
         sorted = True
@@ -8,4 +8,4 @@ def buble(list_a):
                 sorted = False
     return list_a
 
-print(buble([2, 9, 1, 4, 0, 7, 6, 3]))
+print(bubble([2, 9, 1, 4, 0, 7, 6, 3]))
