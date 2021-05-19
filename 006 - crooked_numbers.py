@@ -16,7 +16,6 @@ def single_digit():
     numeric_int = int(''.join(numeric_filter))
 
     while numeric_int > 9:
-        ## print(numeric_int) - was used to double check if each iteration is correct
         sum_of_nums = 0
         for each in str(numeric_int):
             sum_of_nums += int(each)
